@@ -1,0 +1,15 @@
+{
+    "description": "Disable the youtube short UI and use the default one instead",
+    "manifest_version": 2,
+    "version": "1.0",
+    "name": "NoYoutubeShortUI",
+    "permissions": [
+        "tabs",
+        "webNavigation"
+    ],
+    "background": {
+        "scripts": [
+            "background.min.js"
+        ]
+    }
+}
